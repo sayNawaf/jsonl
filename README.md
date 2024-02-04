@@ -5,12 +5,14 @@ The JSONL Converter Library is a Python library designed to facilitate the conve
 from jsonl_converter_library import jsonl
 
 # Sample Code
-# Convert CSV to JSONL
+// Convert CSV to JSONL
 csv_file = "input.csv"
 jsonl_obj = jsonl.csv_to_jsonl(csv_file)
 
-# Save JSONL to file
+// Save JSONL to file
 jsonl_obj.save_jsonl("output.jsonl")
+
+
 
 # Conversion to jsonl object
 
@@ -30,6 +32,7 @@ jsonl_obj.save_jsonl("output.jsonl")
 | `msgpack_to_jsonl(input_msgpack_file) -> jsonl_object` | Convert Msgpack to JSONL               | Msgpack                  |
 | `sqlite_to_jsonl(input_sqlite_file, table_name='data') -> jsonl_object` | Convert SQLite to JSONL        | SQLite                   |
 | `hdf5_to_jsonl(input_hdf5_file, key='data') -> jsonl_object` | Convert HDF5 to JSONL                          | HDF5                     |
+
 
 
 # jsonl object to other file format

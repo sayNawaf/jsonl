@@ -2,6 +2,23 @@
 
 The JSONL Converter Library is a Python library designed to facilitate the conversion of various file formats to the JSON Lines (JSONL) format. JSONL is a format where each line of the file represents a valid JSON object, making it easy to read, write, and process large datasets.
 
+Supported File Formats:
+
+1.CSV
+2.JSONL
+3.Pandas DataFrame
+4.Excel (xls, xlsx)
+5.Avro
+6.Parquet
+7.ORC
+8.Feather
+9.XML
+10.YAML
+11.JSON
+12.Msgpack
+13.SQLite
+14.HDF5
+
 # Sample Code
 
 from jsonl import jsonl

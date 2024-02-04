@@ -5,12 +5,12 @@ The JSONL Converter Library is a Python library designed to facilitate the conve
 from jsonl_converter_library import jsonl
 
 # Sample Code
-// Convert CSV to JSONL
+\# Convert CSV to JSONL
 
 csv_file = "input.csv"
 jsonl_obj = jsonl.csv_to_jsonl(csv_file)
 
-// Save JSONL to file
+\# Save JSONL to file
 
 jsonl_obj.save_jsonl("output.jsonl")
 

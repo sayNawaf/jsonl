@@ -37,6 +37,7 @@ Supported File Formats:
 from jsonl import jsonl
 
 csv_file = "input.csv"
+
 jsonl_obj = jsonl.csv_to_jsonl(csv_file) \# Convert CSV to JSONL
 
 jsonl_obj.save_jsonl("output.jsonl") \# Save JSONL to file
